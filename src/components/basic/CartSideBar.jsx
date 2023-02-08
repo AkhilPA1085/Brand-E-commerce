@@ -39,10 +39,17 @@ const CartSideBar = ({ cartOpen, setCartOpen }) => {
             <h4 className="uppercase text-md font-bold">900</h4>
           </div>
           <div className="flex flex-col justify-between gap-4">
-            <StyledButton type='bg-gray-button w-full'>
-             <Link href="/cart"> view cart </Link>
-            </StyledButton>
-            <StyledButton type='bg-black-button w-full'>check out</StyledButton>
+             <Link href="/cart"> 
+              <StyledButton type='bg-gray-button w-full'>
+                view cart 
+              </StyledButton>
+             </Link>
+
+            <Link href="/checkout">
+              <StyledButton type='bg-black-button w-full'>
+                check out
+              </StyledButton>
+            </Link> 
           </div>
         </div>
       </div>
