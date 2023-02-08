@@ -29,7 +29,7 @@ const TopBar = () => {
               }`}
             >
               <li className="list-item">
-                <Link href="#">Women</Link>
+                <Link href={`/categories/women`}>Women</Link>
               </li>
               <li className="list-item">
                 <Link href="#">men</Link>

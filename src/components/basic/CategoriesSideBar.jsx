@@ -1,8 +1,9 @@
 import Link from "next/link"
-import { MainCategories } from "@/Data/data"
 import FilterSlider from "./FilterSlider";
+import { getProducts } from "@/pages/services/test";
 
 const CategoriesSideBar = () => {
+  const products = getProducts()
   return (
     <>
       <div className="prod-categories w-1/4 h-screen">
@@ -11,7 +12,8 @@ const CategoriesSideBar = () => {
                 <li className="category-page-list-item text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-10">
                   <Link href="/categories">categories</Link>
                 </li>
-                {MainCategories.map((cat)=>{
+                {
+                products.map((cat)=>{
                     const {category}= cat;
                     return (
                     <>

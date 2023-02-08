@@ -373,3 +373,42 @@ export const tabElements = [
     image: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
   }
 ]
+
+export const cartProducts =[
+  {
+    id: 1,
+    name: "Brown Brim",
+    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    price: 25,
+    category:'Women',
+  },
+  {
+    id: 2,
+    name: "Brown Brim",
+    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    price: 25,
+    category:'men',
+  },
+  {
+    id: 3,
+    name: "Brown Brim",
+    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    price: 25,
+    category:'men',
+  },
+  {
+    id: 4,
+    name: "Brown Brim",
+    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    price: 25,
+    category:'Women',
+  },
+  {
+    id: 5,
+    name: "Brown Brim",
+    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    price: 25,
+    category:'kids',
+  },
+  
+]

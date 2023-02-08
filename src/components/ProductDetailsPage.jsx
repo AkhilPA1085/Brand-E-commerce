@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
-import StyledButton from "./buttons/StyledButton";
+import StyledButton from "./styledComponents/StyledButton";
 import Tabs from "./sections/Tabs"
 import { getProductDescriptions, getProducts } from "@/pages/services/test";
 import RelatedProducts from "./sections/RelatedProducts";

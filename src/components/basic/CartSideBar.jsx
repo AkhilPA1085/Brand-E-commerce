@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
-import StyledButton from "../buttons/StyledButton";
+import StyledButton from "../styledComponents/StyledButton";
 
 const CartSideBar = ({ cartOpen, setCartOpen }) => {
   return (

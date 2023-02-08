@@ -1,4 +1,4 @@
-import StyledButton from "../buttons/StyledButton";
+import StyledButton from "../styledComponents/StyledButton";
 
 const CategoryCard = ({ category, className }) => {
   const { image, category:name } = category;

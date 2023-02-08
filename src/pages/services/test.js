@@ -1,4 +1,4 @@
-import { categoryDatas, ProductsDatas, tabElements } from "@/Data/data"
+import { cartProducts, categoryDatas, ProductsDatas, tabElements } from "@/Data/data"
 
 export const getProducts = ()=>{
     return ProductsDatas
@@ -8,8 +8,11 @@ export const getProduct = (product_id)=>{
    return ProductsDatas.find(product=>product.id == product_id)
 }
 
-export const getProductByCategory = (category)=>{
-   return ProductsDatas.filter(product=>product.category == category)
+export const getProductsByCategory = (category)=>{
+   if(!category) return []
+   const products = ProductsDatas.filter(product=>product.category.toLowerCase() 
+                == category.toLowerCase())
+   return products
 }
 
 export const getCategories = ()=>{
@@ -18,4 +21,8 @@ export const getCategories = ()=>{
 
 export const getProductDescriptions =()=>{
     return tabElements
+}
+
+export const getCartProducts = () =>{
+    return cartProducts
 }

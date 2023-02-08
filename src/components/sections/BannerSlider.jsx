@@ -2,7 +2,7 @@ import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { useState } from "react";
-import StyledButton from "../buttons/StyledButton";
+import StyledButton from "../styledComponents/StyledButton";
 
 const BannerSlider = ({ SliderDatas }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
