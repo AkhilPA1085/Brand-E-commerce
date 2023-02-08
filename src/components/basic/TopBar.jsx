@@ -32,10 +32,10 @@ const TopBar = () => {
                 <Link href={`/categories/women`}>Women</Link>
               </li>
               <li className="list-item">
-                <Link href="#">men</Link>
+                <Link href={`/categories/men`}>men</Link>
               </li>
               <li className="list-item">
-                <Link href="#">kids</Link>
+                <Link href={`/categories/kids`}>kids</Link>
               </li>
               <li className="list-item">
                 <Link href="#">fashion</Link>
