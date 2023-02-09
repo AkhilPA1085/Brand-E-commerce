@@ -117,11 +117,11 @@ const CheckoutPage = () => {
 
           <ul>
             <li className="font-semibold flex items-center my-4">
-              <span className="h-2 w-2 bg-[#E5E5E5] mr-3"></span>
+              <input type="checkbox" className="mr-4"/>
               <Link href="#">Create an account?</Link>
             </li>
             <li className="font-semibold flex items-center">
-              <span className="h-2 w-2 bg-[#E5E5E5] mr-3"></span>
+              <input type="checkbox" className="mr-4"/>
               <Link href="#">Ship to a different address?</Link>
             </li>
           </ul>
