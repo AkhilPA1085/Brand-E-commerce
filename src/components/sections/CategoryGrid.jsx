@@ -8,7 +8,7 @@ const CategoryGrid = ({ categories,count = 1 }) => {
  
   return (
     <div className="container mx-auto">
-      <div className="flex flex-wrap">
+      <div className={`grid grid-cols-${count}`}>
         {categories.map((category, index) => {
           return (
             <CategoryCard
