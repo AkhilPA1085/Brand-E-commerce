@@ -67,7 +67,7 @@ const ProductSlider = () => {
   );
   return (
     <>
-      <div className="container mx-auto relative pb-10">
+      <div className="max-w-screen-xl mx-auto relative pb-10">
         {loaded && instanceRef.current && (
           <>
             <div className="flex justify-between items-center pt-6 pb-4">

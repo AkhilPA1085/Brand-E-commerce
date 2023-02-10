@@ -3,7 +3,7 @@ import Link from 'next/link'
 const FooterBottom = () => {
   return (
     <>
-        <div className="container mx-auto pt-10 pb-4">
+        <div className="max-w-screen-xl mx-auto pt-10 pb-4">
             <div className="grid grid-cols-3">
                 <div className='left-footer-col text-xs text-black'>
                     <Link href="">© 2022 zMark All Trading Co</Link>

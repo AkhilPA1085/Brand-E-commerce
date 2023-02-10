@@ -13,7 +13,7 @@ const Name = () => {
       setCategoryProducts(products)
     },[category])
   return (
-    <div className="container mx-auto pt-14">
+    <div className="max-w-screen-xl mx-auto pt-14">
       <div className="flex justify-between">
         <CategoriesSideBar/>
         <CategoryProducts products={categoryProducts}/>

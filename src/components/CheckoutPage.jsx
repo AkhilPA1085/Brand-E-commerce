@@ -4,7 +4,7 @@ import StyledButton from "./styledComponents/StyledButton";
 
 const CheckoutPage = () => {
   return (
-    <div className="container mx-auto pt-24">
+    <div className="max-w-screen-xl mx-auto pt-24">
       <ProgressBar steps={["Step 1", "Step 2", "Step 3"]} currentStep={2} />
 
       <p className="pt-24">

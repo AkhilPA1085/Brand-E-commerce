@@ -1,6 +1,6 @@
-const ProductTitleBanner = ({ pathname }) => {
+const ProductTitleBanner = ({ pathname,className }) => {
   return (
-    <div className="prod-title-banner container mx-auto bg-[#4E154A] text-white pt-20 pb-10 px-10">
+    <div className={`prod-title-banner max-w-screen-xl mx-auto bg-[#4E154A] text-white pt-20 pb-10 px-10 ${className}`}>
       <div className="grid grid-cols-2">
         <div>
           <h1 className="title text-4xl font-semibold pb-2 capitalize">

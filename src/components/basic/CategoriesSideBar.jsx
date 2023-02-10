@@ -7,7 +7,7 @@ const CategoriesSideBar = () => {
   return (
     <>
       <div className="prod-categories w-1/4 h-screen">
-            <div className="container mx-auto">
+            <div className="max-w-screen-xl mx-auto">
               <ul className="category-page-list">
                 <li className="category-page-list-item text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-10">
                   <Link href="/categories">categories</Link>

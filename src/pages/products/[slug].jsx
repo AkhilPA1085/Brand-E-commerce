@@ -12,7 +12,7 @@ const ProductDetails = () => {
     },[product_id])
     
   return (
-    <div className="container mx-auto">
+    <div className="max-w-screen-xl mx-auto">
       <ProductDetailsPage product={product}/>
     </div>
   )

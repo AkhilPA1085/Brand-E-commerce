@@ -412,3 +412,51 @@ export const cartProducts =[
   },
   
 ]
+
+export const aboutPageDatas =[
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+]
+
+export const blogs =[
+  {
+    date:'12/09/2022',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    date:'12/09/2022',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    date:'12/09/2022',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    date:'12/09/2022',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+]

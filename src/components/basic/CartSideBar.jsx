@@ -9,13 +9,13 @@ const CartSideBar = ({ cartOpen, setCartOpen }) => {
       <div
         className={`cart-items ${
           cartOpen ? `cart-active` : ``
-        } container mx-auto bg-white absolute top-0 bottom-0 right-0 left-auto w-full sm:w-1/4 h-screen p-4 z-30`}
+        } max-w-screen-xl mx-auto bg-white absolute top-0 bottom-0 right-0 left-auto w-full sm:w-1/4 h-screen p-4 z-30 shadow-lg`}
       >
         <div className="title-container flex items-center justify-between font-bold">
           <h4 className="cart-title uppercase text-md font-bold">
             shopping cart
           </h4>
-          <AiOutlineClose onClick={() => setCartOpen(false)} />
+          {/* <AiOutlineClose onClick={() => setCartOpen(false)} /> */}
         </div>
         <hr className="mt-4" />
         <div className="cart-item-details flex justify-between py-4">

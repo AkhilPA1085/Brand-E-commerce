@@ -43,7 +43,7 @@ const ProductDetailsPage = ({ product }) => {
 
   const descriptions = getProductDescriptions();
   return (
-    <div className="container mx-auto pt-24">
+    <div className="max-w-screen-xl mx-auto pt-24">
       <div className="flex flex-wrap flex-col sm:flex-row">
         <div className="product-images w-1/2">
           <div className="flex gap-2 justify-between">

@@ -1,4 +1,4 @@
-import { cartProducts, categoryDatas, ProductsDatas, tabElements } from "@/Data/data"
+import { aboutPageDatas, blogs, cartProducts, categoryDatas, ProductsDatas, tabElements } from "@/Data/data"
 
 export const getProducts = ()=>{
     return ProductsDatas
@@ -25,4 +25,12 @@ export const getProductDescriptions =()=>{
 
 export const getCartProducts = () =>{
     return cartProducts
+}
+
+export const getAboutPageDetails = () =>{
+    return aboutPageDatas
+}
+
+export const getAllBlogs = () =>{
+    return blogs
 }

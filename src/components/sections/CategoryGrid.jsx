@@ -7,7 +7,7 @@ const CategoryGrid = ({ categories,count = 1 }) => {
   categories = categories.slice(0, count)
  
   return (
-    <div className="container mx-auto">
+    <div className="max-w-screen-xl mx-auto">
       <div className={`grid grid-cols-${count}`}>
         {categories.map((category, index) => {
           return (
