@@ -1,4 +1,4 @@
-import CategoriesSideBar from '@/components/basic/CategoriesSideBar'
+import CategoriesSideBar from '@/components/sections/CategoriesSideBar'
 import CategoryProducts from '@/components/sections/CategoryProducts'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
@@ -13,7 +13,7 @@ const Name = () => {
       setCategoryProducts(products)
     },[category])
   return (
-    <div className="max-w-screen-xl mx-auto pt-14">
+    <div className="max-w-screen-xl mx-auto p-4 pt-14">
       <div className="flex justify-between">
         <CategoriesSideBar/>
         <CategoryProducts products={categoryProducts}/>

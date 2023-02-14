@@ -8,7 +8,7 @@ const RelatedProducts = ({product}) => {
     const category = product?.category
     const relatedProducts = getProductsByCategory(category)
   return (
-    <div className="related-products py-32">
+    <div className="max-w-screen-xl p-4 mx-auto related-products py-32">
         <h4 className="font-bold uppercasen pb-4">RELATED PRODUCTS</h4>
         <div className="flex gap-4">
             {

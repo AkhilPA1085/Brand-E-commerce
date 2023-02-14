@@ -1,3 +1,227 @@
+export const menus = [
+  {
+    label: 'men',
+    href: 'categories/men',
+    submenu:true,
+    sublinks:[
+      {
+        Head:'Topwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Bottomwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+    ]
+  },
+  {
+    label: 'women',
+    href: 'categories/women',
+    submenu:true,
+    sublinks:[
+      {
+        Head:'Topwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Bottomwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+    ]
+  },
+  {
+    label: 'kids',
+    href: 'categories/kids',
+    submenu:true,
+    sublinks:[
+      {
+        Head:'kids 1',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'kids 1',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'kids 1',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+    ]
+  },
+  {
+    label: 'fashion',
+    href: 'categories/fashion',
+    submenu:true,
+    sublinks:[
+      {
+        Head:'Fashiion 1',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Fashiion 2',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Fashiion 3',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Fashiion 4',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'Fashiion 4',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+      {
+        Head:'innerwear',
+        sublink:[
+          { name:'T-shirt',link:'#' },
+          { name:'formal',link:'#' },
+          { name:'shirt',link:'#' },
+          { name:'shors',link:'#' },
+        ]
+      },
+    ]
+  },
+]
+
+
+
+
+
 export const SliderDatas =[
     {
         id:1,
@@ -107,6 +331,24 @@ export const ProductsDatas =[
       },
       
 ]
+
+export const accordionDatas = [
+  {
+    id: 1,
+    title: "lorem 1",
+    content: "Accordion content 1",
+  },
+  {
+    id: 2,
+    title: "lorem 2",
+    content: "Accordion content 2",
+  },
+  {
+    id: 3,
+    title: "lorem 3",
+    content: "Accordion content 3",
+  },
+];
 
 
 export const MainCategories =[
@@ -434,6 +676,27 @@ export const aboutPageDatas =[
   },
 ]
 
+export const materialsDetails =[
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+  {
+    subtitle:'AFTER LOOKING AT ALTERNATIVES',
+    maintitle:'The ZMark All',
+    desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
+    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+]
+
 export const blogs =[
   {
     date:'12/09/2022',
@@ -458,5 +721,59 @@ export const blogs =[
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+  },
+]
+
+export const orderAndShippingQueries =[
+  {
+    id:1,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:2,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:3,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+]
+
+export const returnsAndExchangeQueries =[
+  {
+    id:1,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:2,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:3,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+]
+
+export const freaquantlyAskedQueries =[
+  {
+    id:1,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:2,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
+  },
+  {
+    id:3,
+    title:'How long does it take for me to receive my order?',
+    content:'Meditation williamsburg kogi blog bushwick pitchfork polaroid Austin dreamcatcher narwhal taxidermy tofu gentrify aesthetic.'
   },
 ]

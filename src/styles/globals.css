@@ -5,6 +5,7 @@
 html{
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 :root{
@@ -52,53 +53,6 @@ html{
   z-index: 1;
 }
 
-/* TopBar */
-.search-box{
-  padding: 4px;
-  border-radius: 15px;
-  background-color: var(--bg-gray);
-}
-
-.search-box input{
-  border-radius: 10px;
-  background-color: var(--bg-gray);
-}
-
-.search-box input:focus{
-  outline: none;
-}
-
-.mob-search-box.active{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background-color: #fff;
-  height: 100vh;
-}
-
-.mob-search-box.close{
-  display: none;
-}
-
-.mob-search-box.active input{
-  background-color: var(--bg-gray);
-  width: 85%;
-}
-
-.cancel-button{
-  cursor: pointer;
-  position: absolute;
-  left: auto;
-  right: 5px;
-  top: 0;
-}
-
-.mob-search-box input:focus{
-  outline: none;
-}
-
 .logo{
   font-size: 22px;
   font-weight: 600;
@@ -108,8 +62,7 @@ html{
   transform: translateX(0);
 }
 
-.menu-list.mob-menu{
-  display: block;
+.mob-menu{
   position: absolute;
   right: 0;
   left: 50%;
@@ -118,8 +71,6 @@ html{
   text-align: start;
   padding: 20px;
   z-index: 21;
-  transform: translateX(0%);
-  transition: transform 1s ease;
 }
 
 .menu-list li{
@@ -183,5 +134,24 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 50%;
   -webkit-appearance: none;
   @apply bg-black;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+  background-color: #fff;
+}
+
+
+.full-width-search-box{
+    position: absolute;
+    margin: auto 0;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    height: 500px;
+    z-index: 1;
 }
 

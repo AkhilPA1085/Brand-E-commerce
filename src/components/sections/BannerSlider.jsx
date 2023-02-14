@@ -2,7 +2,7 @@ import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { useState } from "react";
-import StyledButton from "../styledComponents/StyledButton";
+import StyledButton from "../common/StyledButton";
 
 const BannerSlider = ({ SliderDatas }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -60,7 +60,7 @@ const BannerSlider = ({ SliderDatas }) => {
                 className="keen-slider__slide flex items-center justify-center h-screen"
               >
                 <Image src={Slide.image} layout="fill" alt="..." />
-                <StyledButton type="outlined-button">
+                <StyledButton className={"outlined-button"}>
                   {Slide.category}
                 </StyledButton>
               </div>

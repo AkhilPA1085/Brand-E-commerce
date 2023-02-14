@@ -1,14 +1,13 @@
-
 import CategoryCard from "../basic/CategoryCard";
 
 const CategoryGrid = ({ categories,count = 1 }) => {
   
-  var className = "sm:w-1/"+count
+  var className ="sm:w-1/"+count.toString().trim()
   categories = categories.slice(0, count)
  
   return (
-    <div className="max-w-screen-xl mx-auto">
-      <div className={`grid grid-cols-${count}`}>
+    <div className="max-w-screen-xl p-4 mx-auto">
+      <div className={`flex flex-wrap`}>
         {categories.map((category, index) => {
           return (
             <CategoryCard

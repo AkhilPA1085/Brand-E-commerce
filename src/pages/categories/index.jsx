@@ -1,4 +1,4 @@
-import CategoriesSideBar from '@/components/basic/CategoriesSideBar'
+import CategoriesSideBar from '@/components/sections/CategoriesSideBar'
 import CategoryProducts from '@/components/sections/CategoryProducts'
 import { getProducts } from '../services/test'
 

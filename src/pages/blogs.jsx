@@ -1,6 +1,5 @@
 import BlogCard from "@/components/basic/BlogCard";
-import BlogsSideBar from "@/components/basic/BlogsSideBar";
-import Link from "next/link";
+import BlogsSideBar from "@/components/sections/BlogsSideBar";
 import { getAllBlogs } from "./services/test";
 
 const Blogs = () => {

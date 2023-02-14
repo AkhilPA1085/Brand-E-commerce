@@ -1,33 +1,25 @@
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
-import StyledButton from "./styledComponents/StyledButton";
-import Tabs from "./sections/Tabs"
-import { getProductDescriptions, getProducts } from "@/pages/services/test";
+import StyledButton from "./common/StyledButton";
+import ProductTabs from "./sections/ProductTabs"
+import { getProductAccordion, getProductDescriptions, getProducts } from "@/pages/services/test";
 import RelatedProducts from "./sections/RelatedProducts";
-import Accordion from "./sections/Accordion";
+import Accordion from "./basic/Accordion";
 
 const ProductDetailsPage = ({ product }) => {
+  const styles = {
+    width:'w-full md:w-1/2',
+    titletext:'bg-white font-medium py-2 uppercase tracking-wide text-[#9B9B9B]',
+    text:'text-[#9B9B9B]',
+    border:'border-b-2',
+    show:true
+  }
+
   const sizes = [30, 32, 40];
   const colors = ["black", "gray-300"];
 
-  const accordionDatas = [
-    {
-      id: 1,
-      title: "lorem 1",
-      content: "Accordion content 1",
-    },
-    {
-      id: 2,
-      title: "lorem 2",
-      content: "Accordion content 2",
-    },
-    {
-      id: 3,
-      title: "lorem 3",
-      content: "Accordion content 3",
-    },
-  ];
+  const accordionDatas = getProductAccordion()
 
   const [selectedSize, setSelectedSize] = useState(null);
   const [selectedColor, setSelectedColor] = useState(null);
@@ -43,9 +35,9 @@ const ProductDetailsPage = ({ product }) => {
 
   const descriptions = getProductDescriptions();
   return (
-    <div className="max-w-screen-xl mx-auto pt-24">
+    <div className="max-w-screen-xl p-4 mx-auto pt-24">
       <div className="flex flex-wrap flex-col sm:flex-row">
-        <div className="product-images w-1/2">
+        <div className="product-images w-full sm:w-1/2">
           <div className="flex gap-2 justify-between">
             <img src={product?.image} alt="" className="w-1/2" />
             <img src={product?.image} alt="" className="w-1/2" />
@@ -57,7 +49,7 @@ const ProductDetailsPage = ({ product }) => {
             <img src={product?.image} alt="" className="w-1/3" />
           </div>
         </div>
-        <div className="product-desc w-1/2 px-4">
+        <div className="product-desc w-full sm:w-1/2 pt-4 sm:pt-0 px-0 sm:px-4">
           <h4 className="product-title text-[#0D1C2E] text-4xl">
             {product?.name}
           </h4>
@@ -117,7 +109,7 @@ const ProductDetailsPage = ({ product }) => {
               value={1}
               className="bg-gray-300 w-1/12 outline-none focus:outline-none text-center flex items-center justify-center"
             />
-            <StyledButton type="bg-black-button ml-2">add to cart</StyledButton>
+            <StyledButton className={"bg-black-button ml-2"}>add to cart</StyledButton>
           </div>
 
           <div className="flex items-center gap-4 pb-8">
@@ -138,13 +130,13 @@ const ProductDetailsPage = ({ product }) => {
           </div>
           
           {accordionDatas.map((accordionData)=>(
-            <Accordion key={accordionData.id} accordionData= {accordionData}/>
+            <Accordion key={accordionData.id} accordionData= {accordionData} styles={styles}/>
           ))}
 
         </div>
       </div>
 
-      <Tabs descriptions={descriptions} count={2}/>
+      <ProductTabs descriptions={descriptions} count={2}/>
 
       <RelatedProducts product = {product}/>
               

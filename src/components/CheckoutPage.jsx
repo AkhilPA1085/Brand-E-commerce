@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ProgressBar from "./basic/ProgressBar";
-import StyledButton from "./styledComponents/StyledButton";
+import StyledButton from "./common/StyledButton";
 
 const CheckoutPage = () => {
   return (
@@ -209,7 +209,7 @@ const CheckoutPage = () => {
             </ul>
           </div>
 
-          <StyledButton type="bg-black-button w-full mt-4">place order</StyledButton>
+          <StyledButton className={"bg-black-button w-full mt-4"}>place order</StyledButton>
         </div>
       </div>
     </div>
