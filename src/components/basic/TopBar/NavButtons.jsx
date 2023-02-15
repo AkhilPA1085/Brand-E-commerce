@@ -2,16 +2,18 @@ import CartSideBar from "@/components/sections/CartSideBar";
 import Link from "next/link";
 import React, { useState } from "react";
 import {
+  AiOutlineClose,
   AiOutlineHeart,
+  AiOutlineMenu,
   AiOutlineSearch,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
 
-const NavButtons = ({ searchOpen, setSearchOpen }) => {
+const NavButtons = ({ searchOpen, setSearchOpen,setMenuOpen,menuOpen }) => {
   const [cartOpen, setCartOpen] = useState(false);
   return (
     <>
-      <div className="flex items-center justify-between gap-5">
+      <div className="flex items-center justify-between gap-2 md:gap-5">
         <div
           className={`flex flex-col md:items-center text-start bg-white ${
             searchOpen && `full-width-search-box`
@@ -27,7 +29,9 @@ const NavButtons = ({ searchOpen, setSearchOpen }) => {
               <input
                 type="text"
                 placeholder="Search"
-                className={`outline-none bg-gray-200 rounded-full`}
+                className={`outline-none bg-gray-200 rounded-full md:w-full ${
+                  searchOpen ? `w-full` : `w-0`
+                }`}
               />
             </li>
             {searchOpen && (
@@ -64,9 +68,23 @@ const NavButtons = ({ searchOpen, setSearchOpen }) => {
             </div>
           </>
         )}
+
+        <div
+          className={`${!searchOpen && `z-20`} md:hidden`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {!menuOpen ? (
+            <AiOutlineMenu size={22} />
+          ) : (
+            <AiOutlineClose size={22} />
+          )}
+        </div>
+
+
         {cartOpen && (
           <CartSideBar cartOpen={cartOpen} setCartOpen={setCartOpen} />
         )}
+        
       </div>
     </>
   );

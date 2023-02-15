@@ -8,7 +8,7 @@ const TopBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   return (
-    <nav className="bg-white">
+    <div className="bg-white fixed w-full z-10">
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="flex justify-between items-center">
           <div
@@ -162,25 +162,19 @@ const TopBar = () => {
             <NavbarLinks />
           </ul>
 
-          <div className="flex items-center gap-5">
-            <NavButtons searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
-
-            <div
-              className={`${!searchOpen && `z-50`} md:hidden`}
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              {!menuOpen ? (
-                <AiOutlineMenu size={22} />
-              ) : (
-                <AiOutlineClose size={22} />
-              )}
-            </div>
+          <div className="flex items-center gap-2 md:gap-5">
+            <NavButtons
+              searchOpen={searchOpen}
+              setSearchOpen={setSearchOpen}
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+            />
           </div>
 
           {/* mobile menu */}
           <ul
             className={`
-            md:hidden bg-white absolute h-screen w-full bottom-0 z-10
+            md:hidden bg-white fixed h-screen w-full bottom-0 z-10
             duration-500 ${menuOpen ? "right-0" : "right-[-100%]"}
           `}
           >
@@ -193,7 +187,7 @@ const TopBar = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
