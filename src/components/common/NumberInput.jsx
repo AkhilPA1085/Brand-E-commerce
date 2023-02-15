@@ -1,10 +1,8 @@
-
-const NumberInput = ({ placeholder,min,className }) => {
+const NumberInput = ({ placeholder, min, className }) => {
   return (
-    <>
-      <input
-        type="number"
-        className={`
+    <input
+      type="number"
+      className={`
         text-center
         form-control
         block
@@ -18,10 +16,9 @@ const NumberInput = ({ placeholder,min,className }) => {
         m-0
         bg-gray-200
         focus:text-gray-700 focus:border-blue-600 focus:outline-none ${className}`}
-        placeholder={placeholder}
-        min={min}
-      />
-    </>
+      placeholder={placeholder}
+      min={min}
+    />
   );
 };
 

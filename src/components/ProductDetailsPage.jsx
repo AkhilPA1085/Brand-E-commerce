@@ -6,6 +6,7 @@ import ProductTabs from "./sections/ProductTabs"
 import { getProductAccordion, getProductDescriptions, getProducts } from "@/pages/services/test";
 import RelatedProducts from "./sections/RelatedProducts";
 import Accordion from "./basic/Accordion";
+import NumberInput from "./common/NumberInput";
 
 const ProductDetailsPage = ({ product }) => {
   const styles = {
@@ -104,10 +105,9 @@ const ProductDetailsPage = ({ product }) => {
           </div>
 
           <div className="product-cart-button flex py-4">
-            <input
-              type="number"
-              value={1}
-              className="bg-gray-300 w-1/12 outline-none focus:outline-none text-center flex items-center justify-center"
+            <NumberInput
+              min={1}
+              placeholder={1}
             />
             <StyledButton className={"bg-black-button ml-2"}>add to cart</StyledButton>
           </div>

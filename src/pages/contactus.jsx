@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import {
   getFreaquantlyAskedQueries,
 } from "./services/test";
+import FormInput from "@/components/common/FormInput";
 
 const Contactus = () => {
   const router = useRouter();
@@ -23,7 +24,7 @@ const Contactus = () => {
       <PageTitleBanner pathname={pagename} className={"pb-28"} bgImage={ImageUrl}/>
 
       <div className="max-w-screen-lg mx-auto p-4 pt-14">
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h6 className="text-base text-[#9B9B9B] pb-3">
               Common queries answered
@@ -47,38 +48,39 @@ const Contactus = () => {
             </h1>
 
             <form>
-              <input
-                className="appearance-none border rounded w-full py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none capitalize"
-                id="name"
-                type="text required"
-                placeholder="name*"
+              <FormInput
+                id={"name"}
+                type={"text"}
+                placeholder={"name*"}
+                className={"md:!w-full"}
               />
-              <input
-                className="appearance-none border rounded w-full py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none capitalize"
-                id="email"
-                type="email required"
-                placeholder="email*"
+              <FormInput
+                id={"email"}
+                type={"email"}
+                placeholder={"email*"}
+                className={"md:!w-full"} 
               />
-              <input
-                className="appearance-none border rounded w-full py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none capitalize"
-                id="mobile number"
-                type="number required"
-                placeholder="mobile number*"
+              <FormInput
+                id={"mobile number"}
+                type={"text"}
+                placeholder={"mobile number*"}
+                className={"md:!w-full"}
               />
-              <input
-                className="appearance-none border rounded w-full py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none capitalize"
-                id="subject"
-                type="text required"
-                placeholder="subject*"
+              <FormInput
+                id={"subject"}
+                type={"text"}
+                placeholder={"subject*"}
+                className={"md:!w-full"}
               />
               <textarea
                 className="appearance-none border rounded w-full py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none capitalize"
                 id="message"
-                type="text required"
+                type="text"
                 rows="4"
                 placeholder="message*"
+                required
               />
-              <StyledButton className={"bg-black-button w-full"}>
+              <StyledButton className={"bg-black-button w-full"} type={"submit"}>
                 send
               </StyledButton>
             </form>

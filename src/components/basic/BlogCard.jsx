@@ -1,6 +1,6 @@
 const BlogCard = ({blog}) => {
   return (
-    <div className="grid grid-cols-3 gap-8 pb-24">
+    <div className="grid md:grid-cols-3 gap-8 pb-24">
       <div className="col-span-2">
         <img src={blog.image} alt="" className="h-full w-full" />
       </div>

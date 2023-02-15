@@ -11,7 +11,11 @@ const TopBar = () => {
     <nav className="bg-white">
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="flex justify-between items-center">
-          <div className={`flex justify-between w-full md:w-auto ${searchOpen && `md:z-10`}`}>
+          <div
+            className={`flex justify-between w-full md:w-auto ${
+              searchOpen && `md:z-10`
+            }`}
+          >
             <Link href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

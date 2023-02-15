@@ -6,15 +6,17 @@ const CartProductsList = ({ cartProducts }) => {
   return (
     <ul className="col-span-2">
       {cartProducts.map((cartProduct) => (
-        <li className="cart-product flex items-center gap-16 pb-8 pr-4">
+        <li className="cart-product flex items-center justify-between pb-8 pr-4">
           <div className="flex items-center">
-            <AiOutlineClose className="mr-4" />
+            <AiOutlineClose className="mr-4 hidden md:block" />
             <Image width={50} height={60} src={cartProduct.image} alt="" />
           </div>
           <h3 className="mx-2 font-semibold">{cartProduct.name}</h3>
+          <h3 className="md:hidden mx-4 font-semibold">${cartProduct.price}</h3>
           
           <NumberInput placeholder={1} min={0}/>
-          <h3 className="mx-4 font-semibold">${cartProduct.price}</h3>
+          <AiOutlineClose className="md:hidden ml-6"/>
+          <h3 className="hidden md:block mx-4 font-semibold">${cartProduct.price}</h3>
         </li>
       ))}
     </ul>

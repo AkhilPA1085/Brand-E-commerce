@@ -1,9 +1,8 @@
-import Image from "next/image";
 
 const PageDescriptionCard = ({ data, index }) => {
   return (
     <div
-      className={`flex justify-between pt-24 ${
+      className={`flex justify-between flex-col md:flex-row pt-24 ${
         index % 2 === 0 ? `` : `flex-row-reverse`
       }`}
     >

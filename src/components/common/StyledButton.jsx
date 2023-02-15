@@ -1,8 +1,8 @@
 import React from 'react'
 
-const StyledButton = ({className,children}) => {
+const StyledButton = ({className,children,type}) => {
   return (
-    <button className={`styled-button ${className}`}>
+    <button className={`styled-button ${className}`} type={type}>
         {children}
     </button> 
   )

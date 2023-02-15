@@ -2,7 +2,7 @@ import StyledButton from "../common/StyledButton";
 
 const CartAmountList = () => {
   return (
-    <ul>
+    <ul className="col-span-2 md:col-span-1">
       <li className="bg-gray-200 flex justify-between items-center p-8 border-b-2 border-white">
         <h4 className="font-semibold uppercase tracking-wide">subtotal</h4>
         <h3 className="mx-4 font-semibold">$ 9090</h3>

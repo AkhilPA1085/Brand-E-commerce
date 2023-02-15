@@ -1,6 +1,6 @@
 const ProgressBar = ({ steps, currentStep }) => {
   return (
-    <div className="mx-28">
+    <div className="md:mx-28">
 
     
     <div className="flex">

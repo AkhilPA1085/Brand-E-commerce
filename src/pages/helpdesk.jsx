@@ -24,7 +24,7 @@ const Helpdesk = () => {
       <PageTitleBanner pathname={pagename} className={"pb-28"} bgImage={ImageUrl}/>
 
       <div className="max-w-screen-lg mx-auto p-4 pt-14">
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h6 className="text-base text-[#9B9B9B] pb-3">
               Common purchase queries answered

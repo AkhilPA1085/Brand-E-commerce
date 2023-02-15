@@ -1,10 +1,11 @@
 import Link from "next/link";
 import ProgressBar from "./basic/ProgressBar";
+import FormInput from "./common/FormInput";
 import StyledButton from "./common/StyledButton";
 
 const CheckoutPage = () => {
   return (
-    <div className="max-w-screen-xl mx-auto pt-24">
+    <div className="max-w-screen-xl mx-auto pt-24 p-4">
       <ProgressBar steps={["Step 1", "Step 2", "Step 3"]} currentStep={2} />
 
       <p className="pt-24">
@@ -20,7 +21,7 @@ const CheckoutPage = () => {
         </span>
       </p>
 
-      <div className="grid grid-cols-2 pt-10">
+      <div className="grid grid-row-2 md:grid-cols-2 pt-10">
         <div>
           <h2 className="font-bold text-2xl">Billing Details</h2>
 
@@ -31,10 +32,9 @@ const CheckoutPage = () => {
             >
               Name*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="name"
-              type="text"
+            <FormInput
+              id={"name"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -42,10 +42,9 @@ const CheckoutPage = () => {
             >
               Country*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="country"
-              type="text"
+            <FormInput
+              id={"country"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -53,10 +52,9 @@ const CheckoutPage = () => {
             >
               Street address*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="street"
-              type="text"
+            <FormInput
+              id={"street"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -64,10 +62,9 @@ const CheckoutPage = () => {
             >
               Town/City*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="town"
-              type="text"
+            <FormInput
+              id={"town"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -75,10 +72,9 @@ const CheckoutPage = () => {
             >
               State/Country*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="state"
-              type="text"
+            <FormInput
+              id={"state"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -86,10 +82,9 @@ const CheckoutPage = () => {
             >
               Postcode/ZIP*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="postcode"
-              type="text"
+            <FormInput
+              id={"postcode"}
+              type={"text"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -97,10 +92,9 @@ const CheckoutPage = () => {
             >
               Phone*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="phone"
-              type="number"
+            <FormInput
+              id={"phone"}
+              type={"number"}
             />
             <label
               className="block text-[#707070] text-sm pb-2 pt-3"
@@ -108,10 +102,9 @@ const CheckoutPage = () => {
             >
               Email*
             </label>
-            <input
-              className="appearance-none border rounded w-3/4 py-2 mb-3 px-3 text-[#707070] leading-tight focus:outline-none"
-              id="email"
-              type="email"
+            <FormInput
+              id={"email"}
+              type={"email"}
             />
           </form>
 
@@ -126,7 +119,7 @@ const CheckoutPage = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="pt-8 md:pt-0">
           <h2 className="font-bold text-2xl">Your Orders</h2>
 
           <ul className="pt-6">
