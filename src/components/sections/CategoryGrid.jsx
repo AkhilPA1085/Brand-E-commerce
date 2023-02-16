@@ -13,7 +13,7 @@ const CategoryGrid = ({ categories,count = 1 }) => {
             <CategoryCard
               category={category}
               index={index}
-              className={`sm:w-1/${count.toString().trim()}`}
+              className={className}
             />
           );
         })}
