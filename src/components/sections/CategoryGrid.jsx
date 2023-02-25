@@ -11,6 +11,7 @@ const CategoryGrid = ({ categories,count = 1 }) => {
         {categories.map((category, index) => {
           return (
             <CategoryCard
+              key={category.id}
               category={category}
               index={index}
               className={className}

@@ -3,10 +3,11 @@ import { useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import StyledButton from "./common/StyledButton";
 import ProductTabs from "./sections/ProductTabs"
-import { getProductAccordion, getProductDescriptions, getProducts } from "@/pages/services/test";
+import { getProductAccordion, getProductDescriptions, getProducts } from "@/pages/api/services/test";
 import RelatedProducts from "./sections/RelatedProducts";
 import Accordion from "./basic/Accordion";
 import NumberInput from "./common/NumberInput";
+import Image from "next/image";
 
 const ProductDetailsPage = ({ product }) => {
   const styles = {
@@ -40,14 +41,14 @@ const ProductDetailsPage = ({ product }) => {
       <div className="flex flex-wrap flex-col sm:flex-row">
         <div className="product-images w-full sm:w-1/2">
           <div className="flex gap-2 justify-between">
-            <img src={product?.image} alt="" className="w-1/2" />
-            <img src={product?.image} alt="" className="w-1/2" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/2"/>
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/2" />
           </div>
-          <img src={product?.image} alt="" className="w-full py-2 h-1/2" />
+          <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-full py-2 h-1/2" />
           <div className="flex gap-1 justify-between">
-            <img src={product?.image} alt="" className="w-1/3" />
-            <img src={product?.image} alt="" className="w-1/3" />
-            <img src={product?.image} alt="" className="w-1/3" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
           </div>
         </div>
         <div className="product-desc w-full sm:w-1/2 pt-4 sm:pt-0 px-0 sm:px-4">

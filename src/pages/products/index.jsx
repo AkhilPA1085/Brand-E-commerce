@@ -1,6 +1,6 @@
 import ProductSlideCard from "@/components/basic/ProductSlideCard"
 import Link from "next/link"
-import { getProducts } from "../services/test"
+import { getProducts } from "../api/services/test"
 
 const Products = () => {
   const products = getProducts()

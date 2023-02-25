@@ -1,5 +1,5 @@
 import Products from "@/pages/products";
-import { getProducts } from "@/pages/services/test";
+import { getProducts } from "@/pages/api/services/test";
 import { useKeenSlider } from "keen-slider/react";
 import Link from "next/link";
 import { useState } from "react";

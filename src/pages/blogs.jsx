@@ -1,6 +1,6 @@
 import BlogCard from "@/components/basic/BlogCard";
 import BlogsSideBar from "@/components/sections/BlogsSideBar";
-import { getAllBlogs } from "./services/test";
+import { getAllBlogs } from "./api/services/test";
 
 const Blogs = () => {
   const blogs = getAllBlogs();
@@ -9,8 +9,8 @@ const Blogs = () => {
       <p className="font-semibold">Home/blogs</p>
       <div className="grid md:grid-cols-4 pb-24 gap-8">
         <div className="col-span-3 pt-8">
-          {blogs.map((blog) => (
-            <BlogCard blog={blog} />
+          {blogs.map((blog,index) => (
+            <BlogCard key={blog.id} blog={blog} />
           ))}
         </div>
 

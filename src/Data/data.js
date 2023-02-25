@@ -218,10 +218,6 @@ export const menus = [
   },
 ]
 
-
-
-
-
 export const SliderDatas =[
     {
         id:1,
@@ -262,32 +258,32 @@ export const categoryDatas =[
         image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
     },
     {
-      id:2,
+      id:4,
       category:'men',
       image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
   },
   {
-      id:3,
+      id:5,
       category:'Electronics',
       image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
   },
   {
-    id:2,
+    id:6,
     category:'men',
     image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
-    id:3,
+    id:7,
     category:'Electronics',
     image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
-  id:2,
+  id:8,
   category:'men',
   image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
-  id:3,
+  id:9,
   category:'Electronics',
   image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
@@ -657,18 +653,21 @@ export const cartProducts =[
 
 export const aboutPageDatas =[
   {
+    id:1,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:2,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:3,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
@@ -678,18 +677,21 @@ export const aboutPageDatas =[
 
 export const materialsDetails =[
   {
+    id:1,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:2,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:3,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
@@ -699,24 +701,28 @@ export const materialsDetails =[
 
 export const blogs =[
   {
+    id:1,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:2,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:3,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
     image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
+    id:3,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',

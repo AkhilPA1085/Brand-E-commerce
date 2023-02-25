@@ -25,7 +25,7 @@ const CategoryProducts = ({products}) => {
       </div>
       <div className="grid grid-cols-3 gap-4">
         {products.map((product) => (
-          <Link href={`/products/${product.id}`}>
+          <Link href={`/products/${product.id}`} key={product.id}>
             <ProductSlideCard product={product} />
           </Link>
         ))}

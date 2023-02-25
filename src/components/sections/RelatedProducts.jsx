@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { getProductsByCategory } from '@/pages/services/test'
+import { getProductsByCategory } from '@/pages/api/services/test'
 import ProductSlideCard from "../basic/ProductSlideCard";
 
 
@@ -13,7 +13,7 @@ const RelatedProducts = ({product}) => {
         <div className="flex gap-4">
             {
                 relatedProducts.map((relatedProduct)=>(
-                    <Link href={`/products/${relatedProduct.id}`}>
+                    <Link href={`/products/${relatedProduct.id}`} key={relatedProduct.id}>
                         <ProductSlideCard product={relatedProduct} />
                     </Link>
                 ))

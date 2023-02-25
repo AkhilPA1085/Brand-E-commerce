@@ -13,7 +13,7 @@ const TopBar = () => {
         <div className="flex justify-between items-center">
           <div
             className={`flex justify-between w-full md:w-auto ${
-              searchOpen && `md:z-10`
+              searchOpen && `md:z-10 xl:hidden`
             }`}
           >
             <Link href="/">
@@ -154,11 +154,6 @@ const TopBar = () => {
           </div>
 
           <ul className="hidden md:flex items-center gap-8 capitalize font-semibold">
-            {/* <li>
-              <Link href="/" className="py-7 px-3 inline-block">
-                Home
-              </Link>
-            </li> */}
             <NavbarLinks />
           </ul>
 

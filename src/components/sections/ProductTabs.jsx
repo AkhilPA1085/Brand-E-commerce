@@ -13,7 +13,7 @@ const ProductTabs = ({ descriptions, count = 1 }) => {
             role="tablist"
           >
             {descriptions.map((description, index) => (
-              <li className="-mb-px mr-2 last:mr-0 text-center">
+              <li className="-mb-px mr-2 last:mr-0 text-center" key={description.id}>
                 <a
                   className={`text-xs uppercase px-5 py-3 leading-normal ${
                     openTab === index
@@ -36,6 +36,7 @@ const ProductTabs = ({ descriptions, count = 1 }) => {
           <div className="max-w-screen-xl p-4 mx-auto flex justify-between md:justify-center">
             {descriptions.map((description, index) => (
               <div
+                key={description.id}
                 className={
                   openTab === index
                     ? `flex flex-col md:flex-row w-full md:w-1/2 py-4`

@@ -3,7 +3,7 @@ import { SliderDatas } from "@/Data/data";
 import CategoryGrid from "./sections/CategoryGrid";
 import ProductSlider from "./sections/ProductSlider";
 import BannerSlider from "@/components/sections/BannerSlider";
-import { getCategories } from "@/pages/services/test";
+import { getCategories } from "@/pages/api/services/test";
 
 const MainPage = () => {
   const allCategory = getCategories();

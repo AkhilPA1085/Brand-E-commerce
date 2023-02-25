@@ -1,6 +1,6 @@
 import CategoriesSideBar from '@/components/sections/CategoriesSideBar'
 import CategoryProducts from '@/components/sections/CategoryProducts'
-import { getProducts } from '../services/test'
+import { getProducts } from '../api/services/test'
 
 const Categories = () => {
   const products = getProducts()

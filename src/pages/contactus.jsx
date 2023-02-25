@@ -4,7 +4,7 @@ import StyledButton from "@/components/common/StyledButton";
 import { useRouter } from "next/router";
 import {
   getFreaquantlyAskedQueries,
-} from "./services/test";
+} from "./api/services/test";
 import FormInput from "@/components/common/FormInput";
 
 const Contactus = () => {

@@ -1,4 +1,4 @@
-import { getCartProducts } from "@/pages/services/test";
+import { getCartProducts } from "@/pages/api/services/test";
 import Image from "next/image";
 import { AiOutlineClose } from "react-icons/ai";
 import ProgressBar from "./basic/ProgressBar";

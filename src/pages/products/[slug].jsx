@@ -1,7 +1,7 @@
 import ProductDetailsPage from "@/components/ProductDetailsPage";
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react";
-import { getProduct } from "../services/test";
+import { getProduct } from "../api/services/test";
 
 const ProductDetails = () => {
     const router = useRouter();

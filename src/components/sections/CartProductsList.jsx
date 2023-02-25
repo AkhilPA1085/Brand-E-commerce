@@ -6,7 +6,7 @@ const CartProductsList = ({ cartProducts }) => {
   return (
     <ul className="col-span-2">
       {cartProducts.map((cartProduct) => (
-        <li className="cart-product flex items-center justify-between pb-8 pr-4">
+        <li className="cart-product flex items-center justify-between pb-8 pr-4" key={cartProduct.id}>
           <div className="flex items-center">
             <AiOutlineClose className="mr-4 hidden md:block" />
             <Image width={50} height={60} src={cartProduct.image} alt="" />

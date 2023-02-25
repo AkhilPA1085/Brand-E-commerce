@@ -2,7 +2,7 @@ import CategoriesSideBar from '@/components/sections/CategoriesSideBar'
 import CategoryProducts from '@/components/sections/CategoryProducts'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import { getProductsByCategory } from '../services/test'
+import { getProductsByCategory } from '../api/services/test'
 
 const Name = () => {
     const router = useRouter()

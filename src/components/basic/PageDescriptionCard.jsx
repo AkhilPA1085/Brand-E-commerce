@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const PageDescriptionCard = ({ data, index }) => {
   return (
@@ -16,8 +17,7 @@ const PageDescriptionCard = ({ data, index }) => {
         <p className="text-xl text-black pb-8">{data.desc}</p>
       </div>
       <div className="relative w-full">
-        {/* <Image width={200} height={50} src={data.image} /> */}
-        <img src={data.image} alt="..." className="w-4/5"/>
+        <Image width={500} height={500} layout="responsive" src={data.image} alt="..." className="w-4/5"/>
       </div>
     </div>
   );

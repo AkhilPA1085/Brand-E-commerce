@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import {
   getOrderAndShippingQueries,
   getReturnsAndExchangeQueries,
-} from "./services/test";
+} from "./api/services/test";
 
 const Helpdesk = () => {
   const router = useRouter();

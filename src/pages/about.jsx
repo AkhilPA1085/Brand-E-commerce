@@ -1,7 +1,7 @@
 import PageDescriptionCard from "@/components/basic/PageDescriptionCard";
 import PageTitleBanner from "@/components/basic/PageTitleBanner";
 import { useRouter } from "next/router";
-import { getAboutPageDetails } from "./services/test";
+import { getAboutPageDetails } from "./api/services/test";
 
 const About = () => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const About = () => {
 
       <div className="max-w-screen-lg mx-auto p-4 pt-14">
         {datas.map((data,index)=>(
-          <PageDescriptionCard data={data} index={index}/>
+          <PageDescriptionCard data={data} index={index} key={data.id}/>
         ))}
       </div>
     </div>
