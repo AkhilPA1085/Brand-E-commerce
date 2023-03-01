@@ -54,17 +54,15 @@ const BannerSlider = ({ SliderDatas }) => {
       <div ref={sliderRef} className="keen-slider">
         {SliderDatas.map((Slide) => {
           return (
-            <>
-              <div
-                key={Slide.id}
-                className="keen-slider__slide flex items-center justify-center h-screen"
-              >
-                <Image src={Slide.image} layout="fill" alt="..." />
-                <StyledButton className={"outlined-button"}>
-                  {Slide.category}
-                </StyledButton>
-              </div>
-            </>
+            <div
+              key={Slide.id}
+              className="keen-slider__slide flex items-center justify-center h-screen"
+            >
+              <Image src={Slide.image} layout="fill" alt="..." />
+              <StyledButton className={"outlined-button"}>
+                {Slide.category}
+              </StyledButton>
+            </div>
           );
         })}
       </div>

@@ -48,9 +48,12 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           style={{ display: isOpen ? "flex" : "none" }}
           onClick={() => setIsOpen(false)}
         >
+          <p className={`block px-4 py-2 text-sm text-gray-200 ${
+              searchOpen && `w-2/3`
+            }`}>Popular Search</p>
           <a
             href="#"
-            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-500 hover:text-white ${
+            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
               searchOpen && `w-2/3`
             }`}
           >
@@ -58,7 +61,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           </a>
           <a
             href="#"
-            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-500 hover:text-white ${
+            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
               searchOpen && `w-2/3`
             }`}
           >
@@ -66,7 +69,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           </a>
           <a
             href="#"
-            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-500 hover:text-white ${
+            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
               searchOpen && `w-2/3`
             }`}
           >
@@ -74,7 +77,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           </a>
           <a
             href="#"
-            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-500 hover:text-white ${
+            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
               searchOpen && `w-2/3`
             }`}
           >
@@ -82,7 +85,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           </a>
           <a
             href="#"
-            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-500 hover:text-white ${
+            className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
               searchOpen && `w-2/3`
             }`}
           >

@@ -1,8 +1,8 @@
 import CategoryCard from "../basic/CategoryCard";
 
-const CategoryGrid = ({ categories,count = 1 }) => {
+const CategoryGrid = ({ categories,count }) => {
   
-  var className ="sm:w-1/"+count.toString().trim()
+  var className =`w-1/${count} !important`
   categories = categories.slice(0, count)
  
   return (

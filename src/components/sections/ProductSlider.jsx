@@ -74,7 +74,7 @@ const ProductSlider = () => {
               <h6 className="section-title">IN THE SPOTLIGHT</h6>
               <div className="flex justify-between items-center">
                 <AiOutlineLeft
-                  left
+                  left="true"
                   onClick={(e) =>
                     e.stopPropagation() || instanceRef.current?.prev()
                   }

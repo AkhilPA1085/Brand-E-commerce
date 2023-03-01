@@ -31,33 +31,6 @@ export const menus = [
           { name:'shors',link:'#' },
         ]
       },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
     ]
   },
   {
@@ -92,33 +65,7 @@ export const menus = [
           { name:'shors',link:'#' },
         ]
       },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
-      {
-        Head:'innerwear',
-        sublink:[
-          { name:'T-shirt',link:'#' },
-          { name:'formal',link:'#' },
-          { name:'shirt',link:'#' },
-          { name:'shors',link:'#' },
-        ]
-      },
+      
     ]
   },
   {
@@ -136,7 +83,7 @@ export const menus = [
         ]
       },
       {
-        Head:'kids 1',
+        Head:'kids 2',
         sublink:[
           { name:'T-shirt',link:'#' },
           { name:'formal',link:'#' },
@@ -145,7 +92,7 @@ export const menus = [
         ]
       },
       {
-        Head:'kids 1',
+        Head:'kids 3',
         sublink:[
           { name:'T-shirt',link:'#' },
           { name:'formal',link:'#' },
@@ -197,7 +144,7 @@ export const menus = [
         ]
       },
       {
-        Head:'Fashiion 4',
+        Head:'Fashiion 5',
         sublink:[
           { name:'T-shirt',link:'#' },
           { name:'formal',link:'#' },
@@ -293,7 +240,7 @@ export const ProductsDatas =[
       {
         id: 1,
         name: "Brown Brim",
-        image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        image:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079",
         price: 25,
         category:'Women',
       },

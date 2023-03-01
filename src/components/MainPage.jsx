@@ -14,7 +14,7 @@ const MainPage = () => {
       <CategoryGrid categories={allCategory} count={3} />
       <ProductSlider />
       <CategoryGrid categories={allCategory} count={2} />
-      <CategoryGrid categories={allCategory} />
+      <CategoryGrid categories={allCategory} count={1}/>
       <CategoryGrid categories={allCategory} count={3} />
     </>
   );

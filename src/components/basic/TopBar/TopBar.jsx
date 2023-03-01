@@ -13,7 +13,7 @@ const TopBar = () => {
         <div className="flex justify-between items-center">
           <div
             className={`flex justify-between w-full md:w-auto ${
-              searchOpen && `md:z-10 xl:hidden`
+              searchOpen && `md:z-10 2xl:hidden`
             }`}
           >
             <Link href="/">
@@ -170,7 +170,7 @@ const TopBar = () => {
           <ul
             className={`
             md:hidden bg-white fixed h-screen w-full bottom-0 z-10
-            duration-500 ${menuOpen ? "right-0" : "right-[-100%]"}
+            duration-500 overflow-scroll ${menuOpen ? "right-0" : "right-[-100%]"}
           `}
           >
             <li>
