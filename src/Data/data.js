@@ -240,7 +240,7 @@ export const ProductsDatas =[
       {
         id: 1,
         name: "Brown Brim",
-        image:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079",
+        image:"https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'Women',
       },

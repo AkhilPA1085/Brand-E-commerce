@@ -1,5 +1,8 @@
+import Image from "next/image";
 import { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
+
+import SEARCHICON from "../../../../public/assets/search-outline.svg"
 
 const SearchBox = ({ searchOpen, setSearchOpen }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +27,8 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           }`}
           onClick={handleClick}
         >
-          <AiOutlineSearch size={22} />
+          {/* <AiOutlineSearch size={22} /> */}
+          <Image src={SEARCHICON} width={22} height={22} className="w-8 h-6" />
           <input
             type="text"
             className={`md:w-full bg-gray-200 rounded-full text-gray-700 border-gray-300 focus:outline-none ${

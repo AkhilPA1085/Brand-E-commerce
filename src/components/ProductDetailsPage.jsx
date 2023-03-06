@@ -9,6 +9,8 @@ import Accordion from "./basic/Accordion";
 import NumberInput from "./common/NumberInput";
 import Image from "next/image";
 
+import SIZECHARTICON from "../../public/assets/pantone-outline.svg"
+
 const ProductDetailsPage = ({ product }) => {
   const styles = {
     width:'w-full md:w-1/2',
@@ -40,15 +42,15 @@ const ProductDetailsPage = ({ product }) => {
     <div className="max-w-screen-xl p-4 mx-auto pt-24">
       <div className="flex flex-wrap flex-col sm:flex-row">
         <div className="product-images w-full sm:w-1/2">
-          <div className="flex gap-2 justify-between">
+          <div className="flex justify-between">
             <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/2"/>
             <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/2" />
           </div>
           <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-full py-2 h-1/2" />
-          <div className="flex gap-1 justify-between">
-            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
-            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
-            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3" />
+          <div className="flex justify-between">
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3 !important" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3 !important" />
+            <Image width={500} height={500} layout="responsive" src={product?.image} alt="" className="w-1/3 !important" />
           </div>
         </div>
         <div className="product-desc w-full sm:w-1/2 pt-4 sm:pt-0 px-0 sm:px-4">
@@ -118,14 +120,14 @@ const ProductDetailsPage = ({ product }) => {
               href="#"
               className="flex items-center font-semibold text-black text-sm"
             >
-              <AiOutlineHeart />
+              <AiOutlineHeart size={22}/>
               Add to wishlist
             </Link>
             <Link
               href="#"
               className="flex items-center font-semibold text-black text-sm"
             >
-              <AiOutlineHeart />
+              <Image src={SIZECHARTICON} height={22} width={22}/>
               Size guide
             </Link>
           </div>

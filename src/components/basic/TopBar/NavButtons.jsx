@@ -9,6 +9,10 @@ import {
   AiOutlineShoppingCart,
 } from "react-icons/ai";
 import SearchBox from "./SearchBox";
+import Image from "next/image";
+
+import CARTICON from "../../../../public/assets/ShoppingBagOutline.svg"
+import HEARTICON from "../../../../public/assets/heart-outline.svg"
 
 const NavButtons = ({ searchOpen, setSearchOpen, setMenuOpen, menuOpen }) => {
   const [cartOpen, setCartOpen] = useState(false);
@@ -23,14 +27,17 @@ const NavButtons = ({ searchOpen, setSearchOpen, setMenuOpen, menuOpen }) => {
           {!searchOpen && (
             <>
               <div>
-                <AiOutlineHeart size={22} />
+                {/* <AiOutlineHeart size={22} /> */}
+                <Image src={HEARTICON} width={22} height={22} layout="fixed" className="w-8 h-6"/>
               </div>
 
+              
               <div
                 className="cursor-pointer"
                 onClick={() => setCartOpen(!cartOpen)}
               >
-                <AiOutlineShoppingCart size={22} />
+                {/* <AiOutlineShoppingCart size={22} /> */}
+                <Image src={CARTICON} width={22} height={22} className="w-8 h-6"/>
               </div>
             </>
           )}
