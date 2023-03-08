@@ -51,7 +51,7 @@ const ProductTabs = ({ descriptions, count = 1 }) => {
                 <Image
                   width={415}
                   height={177}
-                  src={description.image}
+                  src={description.img}
                   alt=""
                   className="object-cover"
                 />

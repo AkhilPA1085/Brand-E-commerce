@@ -17,7 +17,7 @@ const PageDescriptionCard = ({ data, index }) => {
         <p className="text-xl text-black pb-8">{data.desc}</p>
       </div>
       <div className="relative w-full">
-        <Image width={500} height={500} layout="responsive" src={data.image} alt="..." className="w-4/5"/>
+        <Image width={500} height={500} src={data.img} alt="..." className="w-4/5"/>
       </div>
     </div>
   );

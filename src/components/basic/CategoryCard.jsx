@@ -3,12 +3,12 @@ import Link from "next/link";
 import StyledButton from "../common/StyledButton";
 
 const CategoryCard = ({ category, className }) => {
-  const { image, category: name } = category;
+  const { img, category: name } = category;
   return (
     <div className={`w-full ${className}`}>
       <div className="relative px-1 py-1">
-        <Image width={500} height={500} layout="responsive"
-          src={image}
+        <Image width={500} height={500}
+          src={img}
           alt=""
           className="relative w-full h-100 object-cover"
         />

@@ -28,7 +28,7 @@ const NavButtons = ({ searchOpen, setSearchOpen, setMenuOpen, menuOpen }) => {
             <>
               <div>
                 {/* <AiOutlineHeart size={22} /> */}
-                <Image src={HEARTICON} width={22} height={22} layout="fixed" className="w-8 h-6"/>
+                <Image src={HEARTICON} width={22} height={22} alt="wish-list" className="w-8 h-6"/>
               </div>
 
               
@@ -37,7 +37,7 @@ const NavButtons = ({ searchOpen, setSearchOpen, setMenuOpen, menuOpen }) => {
                 onClick={() => setCartOpen(!cartOpen)}
               >
                 {/* <AiOutlineShoppingCart size={22} /> */}
-                <Image src={CARTICON} width={22} height={22} className="w-8 h-6"/>
+                <Image src={CARTICON} width={22} height={22} alt="cart" className="w-8 h-6"/>
               </div>
             </>
           )}

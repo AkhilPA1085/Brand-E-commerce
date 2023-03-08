@@ -169,22 +169,22 @@ export const SliderDatas =[
     {
         id:1,
         category:'Women',
-        image:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
+        img:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
     },
     {
         id:2,
         category:'men',
-        image:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
+        img:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
     },
     {
         id:3,
         category:'Kids',
-        image:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
+        img:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
     },
     {
         id:4,
         category:'Electronics',
-        image:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
+        img:'https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?w=740&t=st=1675317005~exp=1675317605~hmac=5d1d631af3ec03c82d9e53f15fe145fa0e78c4f3d17c392443e0c9c12265d004'
     },
 ];
 
@@ -192,47 +192,47 @@ export const categoryDatas =[
     {
         id:1,
         category:'Women',
-        image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+        img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
     },
     {
         id:2,
         category:'men',
-        image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+        img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
     },
     {
         id:3,
         category:'Electronics',
-        image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+        img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
     },
     {
       id:4,
       category:'men',
-      image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+      img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
   },
   {
       id:5,
       category:'Electronics',
-      image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+      img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
   },
   {
     id:6,
     category:'men',
-    image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+    img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
     id:7,
     category:'Electronics',
-    image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+    img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
   id:8,
   category:'men',
-  image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+  img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 {
   id:9,
   category:'Electronics',
-  image:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
+  img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?w=740&t=st=1675338344~exp=1675338944~hmac=f111264ada2a03c887b35cbd4ece366f015db197ad023ba8960fc3c8859ba079'
 },
 ];
 
@@ -240,35 +240,35 @@ export const ProductsDatas =[
       {
         id: 1,
         name: "Brown Brim",
-        image:"https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        img:"https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'Women',
       },
       {
         id: 2,
         name: "Brown Brim",
-        image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'men',
       },
       {
         id: 3,
         name: "Brown Brim",
-        image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'men',
       },
       {
         id: 4,
         name: "Brown Brim",
-        image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'Women',
       },
       {
         id: 5,
         name: "Brown Brim",
-        image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
         price: 25,
         category:'kids',
       },
@@ -543,19 +543,19 @@ export const tabElements = [
     id: 'tab-1',
     label: 'Tab 1',
     content: 'Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.Dynamically innovate resource-leveling customer service for state of the art customer service.',
-    image: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
+    img: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
   },
   {
     id: 'tab-2',
     label: 'Tab 2',
     content: 'Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.Dynamically innovate resource-leveling customer service for state of the art customer service.Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.Dynamically innovate resource-leveling customer service for state of the art customer service.',
-    image: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
+    img: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
   },
   {
     id: 'tab-3',
     label: 'Tab 3',
     content: 'Content for tab 3',
-    image: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
+    img: 'https://i.ibb.co/ZYW3VTp/brown-brim.png'
   }
 ]
 
@@ -563,35 +563,35 @@ export const cartProducts =[
   {
     id: 1,
     name: "Brown Brim",
-    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category:'Women',
   },
   {
     id: 2,
     name: "Brown Brim",
-    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category:'men',
   },
   {
     id: 3,
     name: "Brown Brim",
-    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category:'men',
   },
   {
     id: 4,
     name: "Brown Brim",
-    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category:'Women',
   },
   {
     id: 5,
     name: "Brown Brim",
-    image: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    img: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category:'kids',
   },
@@ -604,21 +604,21 @@ export const aboutPageDatas =[
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:2,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:3,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
 ]
 
@@ -628,21 +628,21 @@ export const materialsDetails =[
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:2,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:3,
     subtitle:'AFTER LOOKING AT ALTERNATIVES',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
 ]
 
@@ -652,28 +652,28 @@ export const blogs =[
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:2,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:3,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
   {
     id:3,
     date:'12/09/2022',
     maintitle:'The ZMark All',
     desc:'We are a brand which has been born into mother nature. It’s time to create a new feeling.',
-    image:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
+    img:'https://img.freepik.com/free-photo/american-football-player-professional-stadium_654080-960.jpg?w=996&t=st=1675936182~exp=1675936782~hmac=add19034789c72b8a7b59e7368ac40cdea11e529ef32171d402b496fc7f75c38'
   },
 ]
 

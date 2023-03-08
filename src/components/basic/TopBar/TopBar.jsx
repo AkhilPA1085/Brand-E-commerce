@@ -21,7 +21,7 @@ const TopBar = () => {
           >
             <Link href="/">
               <Image src={LOGO} alt="LOGO"
-              width={200} height={60}/>
+              width={200} height={60} className="w-full"/>
 
             </Link>
           </div>

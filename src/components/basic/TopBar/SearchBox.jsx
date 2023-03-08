@@ -28,7 +28,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           onClick={handleClick}
         >
           {/* <AiOutlineSearch size={22} /> */}
-          <Image src={SEARCHICON} width={22} height={22} className="w-8 h-6" />
+          <Image src={SEARCHICON} width={22} height={22} className="w-8 h-6" alt="search"/>
           <input
             type="text"
             className={`md:w-full bg-gray-200 rounded-full text-gray-700 border-gray-300 focus:outline-none ${

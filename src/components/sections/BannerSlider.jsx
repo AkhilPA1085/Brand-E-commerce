@@ -56,10 +56,10 @@ const BannerSlider = ({ SliderDatas }) => {
           return (
             <div
               key={Slide.id}
-              className="keen-slider__slide flex items-center justify-center h-screen"
+              className="keen-slider__slide flex justify-center items-center relative h-screen"
             >
-              <Image src={Slide.image} layout="fill" alt="..." />
-              <StyledButton className={"outlined-button"}>
+              <Image src={Slide.img} alt="..." width={500} height={500} className="w-full h-full relative"/>
+              <StyledButton className={"outlined-button absolute"}>
                 {Slide.category}
               </StyledButton>
             </div>

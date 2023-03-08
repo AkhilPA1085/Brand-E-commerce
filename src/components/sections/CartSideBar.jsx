@@ -28,6 +28,7 @@ const CartSideBar = ({ cartOpen, setCartOpen }) => {
               width="38"
               height="52"
               src="https://i.ibb.co/ZYW3VTp/brown-brim.png"
+              alt=""
             />
           </div>
         </div>

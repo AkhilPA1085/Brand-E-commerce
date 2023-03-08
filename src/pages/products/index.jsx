@@ -3,14 +3,12 @@ import Link from "next/link"
 import { getProducts } from "../api/services/test"
 
 const Products = () => {
-  const products = getProducts()
+  const products = getProducts();
   const {id} = products
   return (
-    <>
-      <Link href={`/products/${id}`}>
-        <ProductSlideCard products = {products}/>
-      </Link>
-    </>
+    <Link href={`/products/${id}`}>
+      <ProductSlideCard products = {products}/>
+    </Link>
   )
 }
 
