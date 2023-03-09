@@ -28,33 +28,26 @@ const BlogsSideBar = () => {
         tags
       </p>
       <ul className="pt-4">
-        <li className="grid grid-cols-2 gap-4 pb-4">
+        <li className="grid grid-cols-2 pb-4">
           <Link
             href="#"
-            className="font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
+            className="md:mr-4 mb-4 col-span-2 md:col-span-1 font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
           >
             shiirt
           </Link>
           <Link
             href="#"
-            className="font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
-          >
-            shirt
-          </Link>
-        </li>
-        <li className="grid grid-cols-2 gap-4 pb-4">
-          <Link
-            href="#"
-            className="font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
+            className="md:mr-4 mb-4 col-span-2 md:col-span-1 font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
           >
             shiirt
           </Link>
           <Link
             href="#"
-            className="font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
+            className="md:mr-4 mb-4 col-span-2 md:col-span-1 font-semibold capitalize tracking-wide bg-black text-white p-2 text-center text-base"
           >
-            shirt
+            shiirt
           </Link>
+          
         </li>
       </ul>
     </>

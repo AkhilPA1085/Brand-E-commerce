@@ -3,9 +3,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="max-w-screen-xl p-4 mx-auto">
-      <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 pt-12">
-        <div className="about">
-          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3">
+      <div className="grid grid-cols-1 sm:grid-cols-5 pt-12">
+        <div className="about md:mr-4">
+          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3 pt-4 md:pt-0">
             <Link href="/about">about</Link>
           </h1>
           <p className="description text-xs text-black leading-4 font-semibold">
@@ -14,8 +14,8 @@ const Footer = () => {
             more
           </p>
         </div>
-        <div className="offer">
-          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3">
+        <div className="offer md:mr-4">
+          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3 pt-4 md:pt-0">
             <Link href="/offer">offer</Link>
           </h1>
           <ul className="offer-links-list">
@@ -30,8 +30,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="help">
-          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3">
+        <div className="help md:mr-4">
+          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3 pt-4 md:pt-0">
             <Link href="/help">help</Link>
           </h1>
           <ul className="help-links-list">
@@ -55,8 +55,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="company">
-          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3">
+        <div className="company md:mr-4">
+          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3 pt-4 md:pt-0">
             <Link href="/company">company</Link>
           </h1>
           <ul className="company-links-list">
@@ -71,8 +71,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="follow">
-          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3">
+        <div className="follow md:mr-4">
+          <h1 className="text-sm text-gray-700/[0.6] uppercase font-bold tracking-widest pb-3 pt-4 md:pt-0">
             <Link href="/follow">follow</Link>
           </h1>
           <ul className="follow-links-list">

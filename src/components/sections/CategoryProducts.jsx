@@ -23,9 +23,9 @@ const CategoryProducts = ({products}) => {
           <p className="text-[#9B9B9B] text-sm">30 products</p>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3">
         {products.map((product) => (
-          <Link href={`/products/${product.id}`} key={product.id}>
+          <Link href={`/products/${product.id}`} key={product.id} className="mr-4 col-span-1">
             <ProductSlideCard product={product} />
           </Link>
         ))}

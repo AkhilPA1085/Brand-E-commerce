@@ -23,7 +23,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
       <div className={`flex items-center justify-center w-full bg-white ${searchOpen && `py-5 my-5`}`}>
         <div
           className={`md:bg-gray-200 rounded-full md:px-2 py-2 flex items-center w-full ${
-            searchOpen && `w-2/3 py-5 md:py-0`
+            searchOpen && `w-1/2 py-5 md:py-0`
           }`}
           onClick={handleClick}
         >
@@ -32,7 +32,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           <input
             type="text"
             className={`md:w-full bg-gray-200 rounded-full text-gray-700 border-gray-300 focus:outline-none ${
-              searchOpen ? `w-2/3  bg-gray-200 rounded-full px-4 py-2` : `w-0`
+              searchOpen ? `w-full  bg-gray-200 rounded-full px-4 py-2` : `w-0`
             }`}
             placeholder="Search"
           />
@@ -53,12 +53,12 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           onClick={() => setIsOpen(false)}
         >
           <p className={`block px-4 py-2 text-sm text-gray-200 ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}>Popular Search</p>
           <a
             href="#"
             className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}
           >
             Item 1
@@ -66,7 +66,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           <a
             href="#"
             className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}
           >
             Item 2
@@ -74,7 +74,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           <a
             href="#"
             className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}
           >
             Item 3
@@ -82,7 +82,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           <a
             href="#"
             className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}
           >
             Item 3
@@ -90,7 +90,7 @@ const SearchBox = ({ searchOpen, setSearchOpen }) => {
           <a
             href="#"
             className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 hover:text-black ${
-              searchOpen && `w-2/3`
+              searchOpen && `w-1/2`
             }`}
           >
             Item 3

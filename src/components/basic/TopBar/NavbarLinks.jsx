@@ -21,25 +21,22 @@ const NavbarLinks = () => {
               {heading === menu.label ? <AiOutlineUp /> : <AiOutlineDown />}
             </h1>
             {menu.submenu && (
-              <div>
-                <div className="absolute top-20 z-10 hidden group-hover:md:block hover:md:block md:w-full md:left-0">
-                  <div className={`bg-white p-5 grid grid-cols-4`}>
-                    {menu.sublinks.map((mysublinks) => (
-                      <div className="p-5" key={mysublinks.Head}>
-                        <h1 className="text-lg font-bold capitalize">
-                          {mysublinks.Head}
-                        </h1>
-                        {mysublinks.sublink.map((slink) => (
-                          <li
-                            className="text-sm text-gray-600"
-                            key={slink.name}
-                          >
-                            <Link href={slink.link}>{slink.name}</Link>
-                          </li>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
+              <div className="absolute top-20 z-10 hidden group-hover:md:block hover:md:block md:w-full md:left-0">
+                <div
+                  className={`bg-white max-w-screen-xl px-4 mx-auto grid grid-cols-4`}
+                >
+                  {menu.sublinks.map((mysublinks) => (
+                    <div className="p-5" key={mysublinks.Head}>
+                      <h1 className="text-lg font-bold capitalize">
+                        {mysublinks.Head}
+                      </h1>
+                      {mysublinks.sublink.map((slink) => (
+                        <li className="text-sm text-gray-600" key={slink.name}>
+                          <Link href={slink.link}>{slink.name}</Link>
+                        </li>
+                      ))}
+                    </div>
+                  ))}
                 </div>
               </div>
             )}

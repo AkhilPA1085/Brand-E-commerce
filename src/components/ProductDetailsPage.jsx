@@ -50,27 +50,28 @@ const ProductDetailsPage = ({ product }) => {
     { src: "https://i.ibb.co/ZYW3VTp/brown-brim.png" },
     { src: "https://i.ibb.co/ZYW3VTp/brown-brim.png" },
     { src: "https://i.ibb.co/ZYW3VTp/brown-brim.png" },
-    { src: "https://i.ibb.co/ZYW3VTp/brown-brim.png" },
+    { src: "https://i.ibb.co/ZYW3VTp/brown-brim.png" }
   ];
 
   const prepareImageGrid = ()=>{
     return images.map((image, index)=>{
-      var className = "w-full p-2"
+      var className = "w-full"
       var indexL = index + 1
       if(indexL % 6 > 0 && indexL % 6 < 3){
-        className = "w-full md:w-1/2 p-2"
+        className = "w-full md:w-1/2"
       }
       if(indexL % 6 > 3 || indexL % 6 == 0){
-        className = "w-full md:w-1/3 p-2"
+        className = "w-full md:w-1/3"
       }
-      if(images.length == 1) className = "w-full p-2"
+      if(images.length == 1) className = "w-full"
 
       return <Image
                 src={image.src}
                 alt=""
                 width={500}
                 height={500}
-                className={className}/>
+                key={index}
+                className={`${className} p-2`}/>
     })
   }
 
@@ -78,7 +79,7 @@ const ProductDetailsPage = ({ product }) => {
     <div className="max-w-screen-xl p-4 mx-auto pt-24">
       <div className="flex flex-wrap flex-col md:flex-row">
         <div className="product-images w-full md:w-1/2">
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-wrap">
             {prepareImageGrid()}
           </div>
         </div>
@@ -99,11 +100,11 @@ const ProductDetailsPage = ({ product }) => {
             </p>
           </div>
 
-          <div className="product-color-picker flex items-center gap-2">
+          <div className="product-color-picker flex items-center">
             {colors.map((color) => (
               <button
                 key={color}
-                className={`rounded-none h-10 w-10 ${
+                className={`rounded-none h-10 w-10 mr-5 ${
                   selectedColor === color
                     ? `border-black border-2 bg-${color}`
                     : `border-inherit border-0 bg-${color}`
@@ -122,11 +123,11 @@ const ProductDetailsPage = ({ product }) => {
             </p>
           </div>
 
-          <div className="product-size-picker flex items-center gap-2">
+          <div className="product-size-picker flex items-center">
             {sizes.map((size) => (
               <button
                 key={size}
-                className={`px-4 py-2 font-medium ${
+                className={`px-4 py-2 font-medium mr-5 ${
                   selectedSize === size ? "bg-black text-white" : "bg-gray-300"
                 }`}
                 onClick={() => handleSizeChange(size)}
@@ -138,15 +139,15 @@ const ProductDetailsPage = ({ product }) => {
 
           <div className="product-cart-button flex py-4">
             <NumberInput min={1} placeholder={1} />
-            <StyledButton className={"bg-black-button ml-2"}>
+            <StyledButton className={"bg-black-button ml-5"}>
               add to cart
             </StyledButton>
           </div>
 
-          <div className="flex items-center gap-4 pb-8">
+          <div className="flex items-center pb-8">
             <Link
               href="#"
-              className="flex items-center font-semibold text-black text-sm"
+              className="flex items-center font-semibold text-black text-sm mr-4"
             >
               {/* <AiOutlineHeart size={22}/> */}
               <Image
@@ -154,7 +155,7 @@ const ProductDetailsPage = ({ product }) => {
                 height={22}
                 width={22}
                 alt=""
-                className="w-8 h-6"
+                className="w-8 h-6 mr-1"
               />
               Add to wishlist
             </Link>
@@ -167,7 +168,7 @@ const ProductDetailsPage = ({ product }) => {
                 height={22}
                 width={22}
                 alt=""
-                className="w-8 h-6"
+                className="w-8 h-6 mr-1"
               />
               Size guide
             </Link>

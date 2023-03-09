@@ -26,11 +26,11 @@ const TopBar = () => {
             </Link>
           </div>
 
-          <ul className="hidden md:flex items-center gap-8 capitalize font-semibold">
+          <ul className="hidden md:flex items-center capitalize font-semibold">
             <NavbarLinks />
           </ul>
 
-          <div className="flex items-center md:gap-5">
+          <div className="flex items-center md:mr-5">
             <NavButtons
               searchOpen={searchOpen}
               setSearchOpen={setSearchOpen}

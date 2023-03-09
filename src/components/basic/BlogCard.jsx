@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const BlogCard = ({blog}) => {
   return (
-    <div className="grid md:grid-cols-3 gap-8 pb-24">
-      <div className="col-span-2">
+    <div className="grid md:grid-cols-3 pb-24">
+      <div className="col-span-2 md:mr-8">
         <Image width={500} height={500} src={blog.img} alt="" className="h-full w-full" />
       </div>
       <div>

@@ -1,4 +1,7 @@
+import Image from "next/image";
 import { useState } from "react";
+
+import DOWNARROW from "/public/assets/down-arrow.svg"
 
 const FilterDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,22 +13,10 @@ const FilterDropdown = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           Dropdown
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-chevron-down"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-            />
-          </svg>
+          <Image src={DOWNARROW} width={22} height={22} alt="cart" className="w-8 h-6"/>
         </button>
         {isOpen && (
-          <div className="z-50 absolute bg-white py-2 rounded-lg shadow-xl">
+          <div className="z-50 absolute bg-white py-2 rounded-lg">
             <a
               href="#"
               className="block px-4 py-2 text-sm font-medium text-[#9B9B9B] hover:bg-gray-100"
