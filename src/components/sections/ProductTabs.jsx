@@ -6,7 +6,7 @@ const ProductTabs = ({ descriptions, count = 1 }) => {
   descriptions = descriptions.slice(0, count);
   return (
     <>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap pt-24">
         <div className="w-full">
           <ul
             className="flex justify-center mb-0 list-none flex-wrap pt-3 pb-4 flex-row"

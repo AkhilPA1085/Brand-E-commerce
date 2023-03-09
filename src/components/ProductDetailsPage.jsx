@@ -71,7 +71,7 @@ const ProductDetailsPage = ({ product }) => {
                 width={500}
                 height={500}
                 key={index}
-                className={`${className} p-2`}/>
+                className={`${className} p-2 h-auto`}/>
     })
   }
 
